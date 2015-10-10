@@ -1,0 +1,115 @@
+/*
+COMP 4140 Crypto Assignment One
+N. Jewsbury #7614402 
+-------------------------------
+Style sheet for Assignment One.
+*/
+
+body {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	background-color: #F5F5F5;
+	margin: 2rem 0 0 0;
+}
+.container {
+	width: 85%;
+	background-color: #FAFAFA;
+	box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.container header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-bottom: 2px solid #E0E0E0;
+	width: 100%;
+}
+h5 {
+	margin: 0 0 0.5rem 0;
+}
+
+.container section {
+	padding: 1rem;
+	border-bottom: 2px solid #E0E0E0;
+	display: flex;
+	justify-content: space-between;
+}
+
+section .section-panel {
+	width: 32%;
+}
+
+.crypto-input {
+	border-right: 2px solid #E0E0E0;
+}
+
+.crypto-output {
+	border-left: 2px solid #E0E0E0;
+	direction: rtl;
+}
+.crypto-middle {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.crypto-middle ul {
+	width: 95%;
+}
+
+li {
+	display: flex;
+	flex-direction: column;
+	border-bottom: 1px solid #E0E0E0;
+	justify-content: center;
+	margin: 0px 0 2px 0;
+	padding: 4px;
+}
+
+.crypto-middle textarea {
+	height: 67px;
+}
+
+.container footer {
+	padding: 1rem;
+}
+
+ul {
+	list-style:none;
+	margin: 0;
+	padding: 0;
+}
+
+textarea {
+	resize:none;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	width: 100%;
+	min-height: 3rem;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+textarea.from-textbook {
+	background-color: #E6E68A;
+	color: #000000;
+}
+
+textarea.success {
+	background-color: #7ACC7A;
+	color: #000000;
+}
+textarea.fail {
+	background-color: #B23838;
+	color: #FFFFFF;
+}
+
+.section-panel .panel-header {
+	border-bottom: 2px solid #E0E0E0;
+	text-transform: uppercase;
+}

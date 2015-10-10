@@ -1,0 +1,202 @@
+<!doctype html>
+
+<html lang='en'>
+
+<head>
+	<!--
+		COMP 4140 Crypto Assignment One
+		N. Jewsbury #7614402 
+		-------------------------------
+		This is simply the UI for the assignment results.	
+	-->
+
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
+	<title>NJewsbury COMP4140 Assignment 1</title>
+	<link rel='stylesheet' href='crypto-njewsbury-a1.css' type='text/css'/>
+</head>
+
+<body>
+	<div class='container'>
+		<header>
+			<h3>COMP4140 - Assignment 1 - Q1</h3>
+			<h5>By: Nathan Jewsbury (7614402)</h5>
+		</header>
+		<section>
+			<div class='crypto-input section-panel'>
+				<span class='panel-header'>Plain text Input</span>
+				<ul>
+					<li>
+						<textarea class='plain-text-input from-textbook' disabled
+						data-matcher='1'
+						data-cipher='shift'
+						data-key='7'>How many possible keys are there</textarea>
+						<label>Key: 7 - found in book</label>
+					</li>
+					<li>
+						<textarea class='plain-text-input' disabled
+						data-matcher='2'
+						data-cipher='shift'
+						data-key='3'>begin the attack now</textarea>
+						<label>Key: 3 - Found in book</label>
+					</li>
+					<li>
+						<textarea class='plain-text-input' disabled
+						data-matcher='3'
+						data-cipher='shift'
+						data-key='24'>this is my crypto assignment one done in javascript</textarea>
+						<label>Key: 24</label>
+					</li>
+					<li>
+						<textarea class='plain-text-input from-textbook' disabled
+						data-matcher='4'
+						data-cipher='vigenere'
+						data-key='cafe'>tell him about me</textarea>
+						<label>Key: cafe - Found in book</label>
+					</li>
+					<li>
+						<textarea class='plain-text-input from-textbook' disabled
+						data-matcher='5'
+						data-cipher='vigenere'
+						data-key='beads'>the man and the woman retrieved the letter from the post office</textarea>
+						<label>Key: beads - Found in book</label>
+					</li>
+					<li>
+						<textarea class='plain-text-input' disabled
+						data-matcher='6'
+						data-cipher='vigenere'
+						data-key='bucket'>This is my plain text for the intro to crypto class assignment number one because all of the plain and cipher text combos that I located in the text book were too short compared to their key my algorithm was unable to crack it therefore I wanted to create a very long plain text that hopefully allows me to get some decent frequency analysis out of it</textarea>
+						<label>Key: bucket</label>
+					</li>
+					<li>
+						<textarea class='plain-text-input from-web' disabled
+						data-matcher='7'
+						></textarea>
+						<label>Key: unknown - found on web</label>
+					</li>
+					<li>
+						<textarea class='plain-text-input' disabled
+						data-matcher='8'
+						data-cipher='vigenere'
+						data-key='crypto'
+						>since apparently my initial text set wasnt long enough to be able to be decoded i figured i would write an even longer one i ended up finding a really long cipher text set available on the web that my system was able to break however it was significantly longer than the one i wrote above so this time im also writing something a lot longer in a run on sentence form so that my system has something that is breakable and comparable to its plain text so that i can have the little text area light up green once it is done its analysis and as much as i love run on sentences its hard to keep coming up with words to type that may fit within reasonable frequency analysis so i dont get some weird skewed result perhaps if i also include the quick brown fox jumped over the lazy dog there will be less errors as it tries to do the analysis on the text which would be optimal given the lack luster success of previous trials i think this is sufficiently long however i may add to it in the future if i was wrong about this initially </textarea>
+						<label>Key: crypto</label>
+					</li>
+				</ul>
+			</div>
+			<div class='crypto-middle section-panel'>
+				<span class='panel-header'>Cipher text input</span>
+				<ul>
+					<li>
+						<textarea class='cipher-text-input' disabled
+						data-matcher='1'
+						data-cipher='shift'>OVDTHUFWVZZPISLRLFZHYLAOLYL</textarea>
+					</li>
+					<li>
+						<textarea class='cipher-text-input' disabled
+						data-matcher='2'
+						data-cipher='shift'></textarea>
+					</li>
+					<li>
+						<textarea class='cipher-text-input' disabled
+						data-matcher='3'
+						data-cipher='shift'></textarea>
+					</li>
+					<li>
+						<textarea class='cipher-text-input' disabled
+						data-matcher='4'
+						data-cipher='vigenere'></textarea>
+					</li>
+					<li>
+						<textarea class='cipher-text-input' disabled
+						data-matcher='5'
+						data-cipher='vigenere'></textarea>
+					</li>
+					<li>
+						<textarea class='cipher-text-input' disabled
+						data-matcher='6'
+						data-cipher='vigenere'></textarea>
+					</li>
+					<li>
+						<textarea class='cipher-text-input' disabled
+						data-matcher='7'
+						data-cipher='vigenere'>rimqessfntwpwtelqdeerkwdpezrfxjumpqxqqurxhifdjaffirlffnsyahrxtoutszwaxwvdspwqbpidwhitvpdnvizstnexzrhpujfcwmfvihdcspkqbrvpczztxugnfdlhdzreheyrkworezrnrpcmatrsdesifqpwwfvnxdmssnsysgltzbgwyqbpidwoegidgnvxvgbyhivvgwrffcixogiskcwlvuchwpjdfnxewamcwcsxefwbrhvqvcmfmfyryotoefopscwweprfwnpxkmelxmwaxtxfjecmbqejkvfyxuqnxxfbnzhqfaggpduzkdoclnzbupvespxhkvfomeqvtazbfdsranxwvabemogpsbgiupveqvictsbyhqzrgiiwdlpqbtmcvsstrsoctazqbemabfsutfzaxaueeeymjygxiqipkadlvpgpsbgiupvbofwlffedezrrptthszruqpsbdssniofltifzprcbfvsgkcusiycqigeohpamgnpbfgudczcacbfithmfvrrrimqemabglttcogidgvscftjyjafzeizcoqvaanvtrrbmpqggeivhpltboeickbpywqbfiiystprpsevtkojyiphuipswmtxkhbhttfzaxfvrmcwcsxefwbrperusidsssgvowzmpiaapehfotqffscjpftrsooptkcspepwgwxeqfhsdzqapiwbyhfvresmsoesrhuirfaqfxqfgltdsusspghwtuhpnedflsjkqsjtfcysvpvbginspsbvwonvqofmcxzznsydyimrbetxeoctazqbemabzsgvkjoiedeipuapoidbpvnghprvmducufzmzaeofxgfbhwceqvickwgtgmdcvdrqilrprrwxxbtnvkdgsvioqsmooykdiwusqeoesjerdzqbigeizcolptoehcvgtlweiztizcodqmyvrvjidsexubvxkvndlmfqxdsfflonmnrpujfcwmflmizgusiafrxxtomwcbcfwxszfesnfrezjidseemfxtdpvemfwfmcwsbdmnzrxductzfkoaceiodemooyqtrbtelqgrwrysnpwmfrxwvffqsdspsbgiulxucaeacmtpggfrxwvffpbuggmcwcsxefwbriyspcifwpeacmtpggfrwrysnpwfvnxeicwlfxmpececuminfboteoopbmacptzgusiabrxxdsqlhnigxwvgfdgtszihrffxsdsqmuwwdfpfhbmbgzfxizhglpehipxtsbvtkwdlpxmovtrybmpqphxrfaqfxmhvscrzmjwqqhvtdsdsezwfqhtfzaxazbknismlxqrgirybpwssmuehiojdipoaybssszjxsteazgtfiewaxwviotxqrxmcxrpxeprvxxfbtesfvrvtximlxucasuzbwpwfwteiffzasisewpthspugweihrgvdtqqgistfjxmzoyxdyoooshsexwvwsprofltizcovikwsehbsemcxojicwcsniysaxdkvfcaugrxwvitpviwypurqflgdwzmcrzdsedurxwvsmpgffbrxttszrfwrvufiooefwbrxjwogsxjrhxeodlwqwaxwvgvavqargdlfuzjfvryczhfowfogihnvjnliwyppjqfcxmwamuisrfmdwakhlgqpgfsqggzajyexggseicwthqhuixisonvkdgmdeyfjwfcyelvbgzvoszickwtfrocawizhvemabnpiysfqjugnvvlworxtogxwzgjdehwbppkwpysrhuigzuiesrbbxqvworjafpiskcjygdwzmcrhfzrqgrpurghtzqbvriysgtjfvnqternprf</textarea>
+					</li>
+					<li>
+						<textarea class='cipher-text-input' disabled
+						data-matcher='8'
+						data-cipher='vigenere'></textarea>
+					</li>
+				</ul>
+			</div>
+			<div class='crypto-output section-panel'>				
+				<span class='panel-header'>Plain text output</span>
+				<ul>
+					<li>
+						<textarea class='plain-text-output' disabled
+						data-matcher='1'></textarea>
+						<label>Key</label>
+					</li>
+					<li>
+						<textarea class='plain-text-output' disabled
+						data-matcher='2'></textarea>
+						<label>Key</label>
+					</li>
+					<li>
+						<textarea class='plain-text-output' disabled
+						data-matcher='3'></textarea>
+						<label>Key</label>
+					</li>
+					<li>
+						<textarea class='plain-text-output' disabled
+						data-matcher='4'></textarea>
+						<label>Key</label>
+					</li>
+					<li>
+						<textarea class='plain-text-output' disabled
+						data-matcher='5'></textarea>
+						<label>Key</label>
+					</li>
+					<li>
+						<textarea class='plain-text-output' disabled
+						data-matcher='6'></textarea>
+						<label>Key</label>
+					</li>
+					<li>
+						<textarea class='plain-text-output' disabled
+						data-matcher='7'></textarea>
+						<label>Key</label>
+					</li>
+					<li>
+						<textarea class='plain-text-output' disabled
+						data-matcher='8'></textarea>
+						<label>Key</label>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<footer>
+			<!--
+			I didn't have time to implement this feature.
+			However! you can simply create a new <li> element
+			in each of the three sections, but make sure you put
+			the text in the plain textinput section.
+			
+			<select id='cipher-select'>
+				<option value='shift'>Shift Cipher</option>
+				<option value='vigenere'>Vigenere Cipher</option>
+			</select>
+			<input type='text' id='cipher-key-input' placeholder='Cipher Key'/>
+			<button id='new-input-button'>Add New Input</button>
+			-->
+			<button id='encrypt-button'>Encrypt All</button>
+			<button id='decrypt-button'>Decrypt All</button>
+		</footer>
+	</div>	
+	
+	<script src="crypto-attack.js"></script>
+	<script src="shift-cipher.js"></script>
+	<script src="vigenere-cipher.js"></script>
+</body>
+
+</html>
